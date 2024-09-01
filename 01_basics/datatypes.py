@@ -1,4 +1,8 @@
 import math
+import random
+from decimal import Decimal
+from fractions import Fraction
+
 
 x = 5
 y = 6
@@ -14,7 +18,10 @@ print("f_name + l_name:",f_name + l_name)
 
 list1 = [1,5,3]
 list2 = list1
-print(list1 , list2)
+print("list1",list1 ,"\nlist2", list2)
+list1[0] = 44
+print("after list1[0]=44")
+print("list1",list1 ,"\nlist2", list2)
 
 print('Comparision Operatops \n >, <, >=, <=, ==, !=, True/False')
 print('Chained Comparision \n x < y < z \n x < y and y < z')
@@ -34,4 +41,19 @@ print('Binary: 0b1000',0b1000)
 print('oct(64):',oct(64))
 print('bin(16):',bin(16))
 print('hex(64):',hex(64))
+
+
+print("\n\nimport random")
+print("random.random():", random.random())
+print("random.randint(1,100):", random.randint(1,100))
+
+l1 = ['lemon','masala','ginger','mint']
+print("l1 = ",l1)
+print("random.choice(l1):", random.choice(l1))
+random.shuffle(l1)
+print("after random.shuffle(l1):", l1)
+print("random.shuffle(l1):", random.shuffle(l1))
+
+print("\import math\nimport random\nfrom decimal import Decimal\nfrom fractions import Fraction")
+
 
