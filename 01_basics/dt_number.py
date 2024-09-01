@@ -3,7 +3,6 @@ import random
 from decimal import Decimal
 from fractions import Fraction
 
-
 x = 5
 y = 6
 z = 3.0
